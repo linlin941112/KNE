@@ -1,0 +1,15 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;  /* 去掉ul.li.ol中的默认样式 */
+}
+a{
+	text-decoration: none;
+}
+boby{
+	font-family: "微软雅黑";
+}
+img{
+	height: 100%;
+	width: 100%;
+}
