@@ -354,3 +354,168 @@ header nav ul .xiahua{
     font-size: 12px;
     text-align: center;
 }
+.huo{
+    width: 100%;
+    padding-top: 312px;
+    overflow: hidden;
+}
+.huo main{
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    position: relative;
+}
+.huo main:before{
+    content: '';
+    display: block;
+    height: 444px;
+    width: 5000px;
+    position: absolute;
+    right: 0;
+    top: -150px;
+    background: #FF3895;
+    z-index: 1;
+}
+.huo main .huo1{
+	position: absolute;
+	width: 572px;
+	height: 604px;
+	top: -310px;
+	left: 0px;
+	z-index: 2;
+}
+.huo main .left{
+    width: 728px;
+    height: 100%;
+    float: left;
+    position: relative;
+    z-index: 100;
+}
+.huo main .left img{
+	width: 100%;
+	height: 496px;
+}
+.huo main .left a{
+    display: block;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #333;
+    background: #FFF33B;
+    margin-left: 3px;
+    transition: all .5s;
+    margin-top: 30px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.huo main .left a:hover{
+	background: #FF3895;
+	color: #fff;
+}
+.huo main .right{
+    width: 472px;
+    height: 100%;
+    float: left;
+    position: relative;
+    z-index: 100;
+    top: 4px;
+    background: #fff;
+}
+.huo main .right .title{
+	padding: 0 100px 0 60px;
+}
+.huo main .right .title h4{
+    font-size: 18px;
+    color: #ff3795;
+    margin-top: 30px;
+    font-weight: normal;
+}
+.huo main .right .title h6{
+    font-size: 36px;
+    color: #ff3795;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+.huo main .right .title p{
+	font-size: 12px;
+	overflow: hidden;
+	color: #333;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 4;
+	-webkit-box-orient: vertical;
+    margin-top: 24px;
+    line-height: 24px;
+}
+.huo main .right img{
+	width: 100%;
+	height: 316px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.huo main:after{
+    content: '';
+    display: block;
+    height: 176px;
+    width: 1000px;
+    position: absolute;
+    left: 100%;
+    top: 210px;
+    background: #FF3895;
+    z-index: 1;
+}
+.meng{
+	padding-top: 200px;
+	overflow: hidden;
+}
+.meng main{
+	width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.meng main .title{
+	display: inline-block;
+    margin-bottom: 52px; 
+    position: relative;
+    text-align: left;
+}
+.meng main .title p{
+    margin: 0 auto;
+    line-height: 24px;
+    color: #333;
+    font-size: 12px;
+    font-weight: bold;
+	border-bottom: 1px dashed #b3b3b3;
+}
+.meng main .title p span{
+	font-weight: normal;
+}
+.meng main .title h3{
+    font-size: 22px;
+    line-height: 42px;
+    font-weight: normal;
+    color: #333;
+    letter-spacing: 22px;
+    position: relative;
+    border-bottom: 1px dashed #000;
+}
+.meng main .title h3 .xian{
+	width: 17px;
+	height: 4px;
+	background: #000;
+	position: absolute;
+	left: 0;
+	bottom: -2px;
+}
+.meng main .anli{
+    height: 668px;
+    padding: 0 0 60px 0;
+    position: relative;
+    background: pink;
+}
+.meng main .anli .meige{
+	width: 100%;
+	height: 100%;
+}
