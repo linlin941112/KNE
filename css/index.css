@@ -513,9 +513,470 @@ header nav ul .xiahua{
     height: 668px;
     padding: 0 0 60px 0;
     position: relative;
-    background: pink;
 }
 .meng main .anli .meige{
 	width: 100%;
+	height: 668px;
+	background: #fff;
+	position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px 10px #eee;
+    transition: all .5s linear;
+}
+.meng main .anli .meige .left{
+	float: left;
+	width: 500px;
+	height: 667px;
+	background: url(../img/anli-1.png) no-repeat center center;
+	background-size: cover;
+}
+.meng main .anli .meige .right{
+	width: 660px;
 	height: 100%;
+	float: right;
+	padding-right: 75px;
+	box-sizing: border-box;
+	text-align: left;
+}
+.meng main .anli .meige .right .top{
+	padding-top: 124px;
+	border-bottom: 2px dashed #d1d1d1;
+	position: relative;
+}
+.meng main .anli .meige .right .top h4{
+	font-size: 24px;
+	color: #333;
+	font-weight: normal;
+	margin-bottom: 30px;
+    text-indent: -10px;
+}
+.meng main .anli .meige .right .top h6{
+	font-size: 14px;
+	color: #999;
+	font-weight: normal;
+	margin-bottom: 60px;
+}
+.meng main .anli .meige .right .top:after{
+	content: '';
+    display: block;
+    width: 28px;
+    height: 8px;
+    background: #FF3895;
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+}
+.meng main .anli .meige .right .bottom{
+	position: relative;
+	margin-bottom: 108px;
+}
+.meng main .anli .meige .right .bottom p{
+	padding: 20px 55px 0 5px;
+	font-size: 14px;
+	color: #333;
+}
+.meng main .anli .meige .right .gengduo{
+    float: right;
+    margin-right: 55px;
+    width: 150px;
+    height: 40px;
+    background: #FFF33B;
+    color: #333;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+    transition: all .5s linear;
+
+}
+.meng main .anli .meige .right .gengduo:hover{
+	background: #FF3895;
+	color: #fff;
+}
+.meng main .anli .anniubox{
+	position: absolute;
+	height: 10px;
+    bottom: 0;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+
+}
+.meng main .anli .anniubox .anniu{
+	width: 10px;
+	height: 10px;
+	background: #FFF33B;
+	margin: 0 5px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: all .3s linear;
+}
+.huan{
+	padding-top: 222px;
+	overflow: hidden;
+}
+.huan main{
+	width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.huan main .title{
+	display: inline-block;
+    margin-bottom: 52px; 
+    position: relative;
+    text-align: left;
+}
+.huan main .title p{
+    margin: 0 auto;
+    line-height: 24px;
+    color: #333;
+    font-size: 12px;
+    font-weight: bold;
+	border-bottom: 1px dashed #b3b3b3;
+}
+.huan main .title p span{
+	font-weight: normal;
+}
+.huan main .title h3{
+    font-size: 22px;
+    line-height: 42px;
+    font-weight: normal;
+    color: #333;
+    letter-spacing: 22px;
+    position: relative;
+    border-bottom: 1px dashed #000;
+}
+.huan main .title h3 .xian{
+	width: 17px;
+	height: 4px;
+	background: #000;
+	position: absolute;
+	left: 0;
+	bottom: -2px;
+}
+.huan main .neirong{
+    width: 100%;
+    height: 440px;
+}
+.huan main .neirong .left{
+    width: 520px;
+    height: 100%;
+    float: left;
+    text-align: left;
+}
+.huan main .neirong .left .top{
+    padding: 0 0 36px 0;
+    border-bottom: 1px dashed #B2B2B2;
+    position: relative;
+}
+.huan main .neirong .left .top h4{
+	padding-top: 50px;
+    text-transform: uppercase;
+    font-size: 28px;
+    color: #333;
+}
+.huan main .neirong .left .top h5{
+	font-size: 18px;
+    color: #333;
+    font-weight: normal;
+}
+.huan main .neirong .left .top:after{
+	content: '';
+    display: block;
+    width: 28px;
+    height: 8px;
+    background: #FF3895;
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+}
+.huan main .neirong .left .bottom{
+	padding-top: 60px;
+	margin-bottom: 28px;
+}
+.huan main .neirong .left .bottom h6{
+	padding-right: 40px;
+	font-size: 14px;
+	color: #333;
+	font-weight: normal;
+	margin-bottom: 40px;
+}
+.huan main .neirong .left .bottom p{
+	font-size: 14px;
+	color: #999;
+	font-weight: normal;
+}
+.huan main .neirong .left .gengduo{
+    float: left;
+    width: 150px;
+    height: 40px;
+    background: #FFF33B;
+    color: #333;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+    transition: all .5s linear;
+}
+.huan main .neirong .left .gengduo:hover{
+	background: #FF3895;
+	color: #fff;
+}
+.huan main .neirong .right{
+    width: 590px;
+    height: 100%;
+    float: right;
+    position: relative;
+}
+.huan main .neirong .right .tu{
+    width: 590px;
+    height: 390px;
+    position: relative;
+}
+.huan main .neirong .right .tu li{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+}
+.huan main .neirong .right .tu .active{
+	opacity: 1;
+	z-index: 100;
+}
+.huan main .neirong .right .tu li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.huan main .neirong .right .dian{
+	position: absolute;
+	left: 50%;
+	height: 8px;
+	bottom: 10px;
+}
+.huan main .neirong .right .dian li{
+	width: 8px;
+	height:8px;
+	box-sizing: border-box;
+    margin: 0 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 1px solid #C8C6C7;
+    float: left;
+    background: #C8C6C7;
+}
+.huan main .neirong .right .dian .active{
+	background: #fff;
+}
+.huan main .neirong .right .zuoyou{
+	position: absolute;
+	left: 80%;
+	width: 58px;
+	height: 28px;
+	bottom: 0;
+}
+.huan main .neirong .right .zuoyou .zuo{
+	float: left;
+	width: 28px;
+	height: 100%;
+	background: #434343;
+	line-height: 28px;
+	text-align: center;
+	color: #fff;
+	margin-right: 2px; 
+	cursor: pointer;
+}
+.huan main .neirong .right .zuoyou .you{
+	float: left;
+	width: 28px;
+	height: 100%;
+	background: #434343;
+	line-height: 28px;
+	text-align: center;
+	color: #fff;
+	cursor: pointer;
+}
+.huan main .neirong .right .zuoyou .zuo:hover,.huan main .neirong .right .zuoyou .you:hover{
+	background: #ff3795;
+}
+.zi{
+	padding-top: 250px;
+	padding-bottom: 80px;
+	overflow: hidden;
+}
+.zi main{
+	width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.zi main .title{
+	display: inline-block;
+    margin-bottom: 52px; 
+    position: relative;
+    text-align: left;
+}
+.zi main .title p{
+    margin: 0 auto;
+    line-height: 24px;
+    color: #333;
+    font-size: 12px;
+    font-weight: bold;
+	border-bottom: 1px dashed #b3b3b3;
+}
+.zi main .title p span{
+	font-weight: normal;
+}
+.zi main .title h3{
+    font-size: 22px;
+    line-height: 42px;
+    font-weight: normal;
+    color: #333;
+    letter-spacing: 22px;
+    position: relative;
+    border-bottom: 1px dashed #000;
+}
+.zi main .title h3 .xian{
+	width: 17px;
+	height: 4px;
+	background: #000;
+	position: absolute;
+	left: 0;
+	bottom: -2px;
+}
+.zi main ul{
+	width: 100%;
+	height: 508px;
+}
+.zi main ul li{
+	width: 338px;
+	height: 100%;
+	margin-right: 93px;
+	float: left;
+	border: 1px solid #d2d2d2;
+	box-sizing: border-box;
+}
+.zi main ul li:last-of-type{
+	margin-right: 0;
+}
+.zi main ul li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 350px 0 0 10px;
+    text-align: left;
+    color: #ff3795;
+    position: relative;
+	background: pink;
+}
+.zi main ul li a h4{
+	font-size: 30px;
+}
+.zi main ul li a h5{
+	font-size: 22px;
+	font-weight: normal;
+}
+.zi main ul li a:after{
+    content: '';
+    display: block;
+    background: #FFF33B;
+    width: 266px;
+    height: 10px;
+    position: absolute;
+    z-index: 1000;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+.zi main ul li:first-of-type a{
+	background: url(../img/zi-2.png) no-repeat center center;
+	background-size: cover;
+}
+.zi main ul li:nth-of-type(2) a{
+	background: url(../img/zi-1.png) no-repeat center center;
+	background-size: cover;
+}
+.zi main ul li:nth-of-type(3) a{
+	background: url(../img/zi-3.png) no-repeat center center;
+	background-size: cover;
+}
+footer{
+	width: 100%;
+	height: 370px;
+    background: #FF3795;
+}
+footer main{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+}
+footer main .kuai{
+    height: 270px;
+    width: 33.3333%;
+    margin-top: 70px;
+    float: left;
+    box-sizing: border-box;
+    color: #ffffff;
+    border-right: 1px solid #8B144D;
+}
+footer main .kuai .top{
+    height: 60px;
+    width: 160px;
+    padding: 10px 20px 0;
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+footer main .kuai .top h4{
+	font-size: 18px;
+	font-weight: normal;
+	margin-bottom: 8px;
+}
+footer main .kuai .top h5{
+	font-size: 16px;
+	font-weight: normal;
+}
+footer main .kuai ul{
+    width: 100%;
+    height: auto;
+    color: #F9D7E4;
+    font-size: 12px;
+    margin-left: 20px;
+}
+footer main .kuai ul li{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	margin-bottom: 5px;
+}
+footer main .kuai ul li i{
+    width: 25px;
+	height: 25px;
+    float: left;
+    margin-left: 20px;
+    margin-right: 10px;
+    background: yellow;
+}
+footer main .kuai ul li p:first-of-type{
+	float: left;
+}
+footer main .kuai ul li p:nth-of-type(2){
+	float: left;
+	margin-left: 52px;
+}
+footer main .kuai .lian{
+	margin-left: 40px;
+}
+footer main .kuai .lian a{
+    font-size: 18px;
+    color: #fff;
+}
+footer main .kuai img{
+	float: right;
+	width: 210px;
+	height: 210px;
+	margin-top: 50px;
 }
