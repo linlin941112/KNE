@@ -775,6 +775,17 @@ header nav ul .xiahua{
     float: right;
     position: relative;
 }
+.huan main .neirong .right:after{
+    content: '';
+    display: block;
+    border: 15px solid #96DDF3;
+    border-left-color: transparent;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    position: absolute;
+    top: 86px;
+    left: -30px;
+}
 .huan main .neirong .right .tu{
     width: 590px;
     height: 390px;
