@@ -1,0 +1,197 @@
+header{
+	width: 100%;
+	height: 98px;
+}
+header nav{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+}
+header nav .nav-left{
+	width: 250px;
+	height: 100%;
+	float: left;
+}
+header nav .nav-left a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+header nav ul{
+    height: 100%; 
+    float: right;
+    padding: 0 15px;
+    position: relative;
+}
+header nav ul li{
+ 	height: 100%;
+    float: left; 
+    line-height: 98px;
+    text-align: center;
+    padding: 0 15px 0 15px;
+}
+header nav ul li a{
+	font-size: 18px;
+	color: #333;
+}
+header nav ul li:hover a{
+	color: #FF3795;
+}
+header nav ul .xiahua{
+	width: 100px;
+	height: 7px;
+	background: #FF3795;
+	position: absolute;
+	bottom: 0;
+	left: 250px;
+	transition: all .2s linear;
+}
+.banner{
+	width: 100%;
+	height: 638px;
+	position: relative;
+	overflow: hidden;
+}
+.banner .title{
+    width: 1000px;
+	height: 110px;
+    position: absolute;
+    left: 0;right: 0;top: 0;bottom: 0;
+    margin: auto;
+    z-index: 99999;
+    color: #fff;
+}
+.banner .title .left{
+    width: 450px;
+   	height: 60px;
+    box-sizing: border-box;
+    border-right: 2px solid #fff;
+    padding-right: 20px;
+    float: left;
+}
+.banner .title .left p{
+    font-weight: bold;
+    font-size: 28px;
+}
+.banner .title .left img{
+    width: 65px;
+    height: 65px;
+    margin-top: -30px;
+    padding: 0 10px;
+
+}
+.banner .title .left h6{
+    text-align: right;
+    font-size: 18px;
+    font-weight: normal;
+}
+.banner .title .right{
+    height: 100%;
+    width: 500px;
+    margin-left: 20px;
+    float: left;
+    color: #fff;
+}
+.banner .title .right p:first-of-type{
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+.banner .title .right p:nth-of-type(2){
+	font-size: 12px;
+}
+.banner .box{
+	width: 300%;
+	height: 100%;
+}
+.banner .box .meige{
+	width: 33.33334%;
+	height: 100%;
+	float: left;
+}
+.banner .anniubox{
+	height: 10px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	bottom: 77px;
+	display: flex;
+	justify-content: center;
+}
+.banner .anniubox li{
+	cursor: pointer;
+	width: 10px;
+	height: 10px;
+	margin: 0 3px;
+	border-radius: 5px;
+	background: #fff;
+	opacity: 0.2;
+	/* transition: all .2s linear; */
+}
+.list-pin{
+	width: 1200px;
+    margin: 0 auto 90px;
+    overflow: hidden;
+    background: #fff;
+    border-top: 15px solid #000000;
+    border-bottom: 1px solid #B4B4B4;
+}
+.list-pin main{
+	width: 1006px;
+    height: auto;
+    margin: 0 auto;
+}
+.list-pin main nav{
+    margin: 36px 0;
+}
+.list-pin main nav .shou{
+    font-size: 12px;
+    border-bottom: 2px solid #666666;
+}
+.list-pin main nav a{
+    font-size: 14px;
+    color: #333;
+    padding: 3px 0;
+}
+.list-pin main nav .dayu{
+	padding: 0 5px;
+}
+.list-pin main .title{
+	display: inline-block;
+    margin-bottom: 36px;
+}
+
+.list-pin main .title p{
+    margin: 0 auto;
+    line-height: 24px;
+    color: #333;
+    font-size: 12px;
+    font-weight: bold;
+	border-bottom: 1px dashed #b3b3b3;
+}
+.list-pin main .title p span{
+	font-weight: normal;
+}
+.list-pin main .title h3{
+    font-size: 22px;
+    line-height: 42px;
+    font-weight: normal;
+    color: #333;
+    letter-spacing: 22px;
+    position: relative;
+    border-bottom: 1px dashed #000;
+}
+.list-pin main .title h3 .xian{
+	width: 17px;
+	height: 4px;
+	background: #000;
+	position: absolute;
+	left: 0;
+	bottom: -2px;
+}
+.list-pin main ul{
+	width: 100%;
+	height: auto;
+	
+}
