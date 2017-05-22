@@ -6,8 +6,8 @@ $(function(){
 		navli[i].l=navli[i].offsetLeft;
 	}
 	// 初始化
-	xiahua.style.left=navli[0].l+"px";
-	xiahua.style.width=navli[0].w+"px";
+	xiahua.style.left=navli[1].l+"px";
+	xiahua.style.width=navli[1].w+"px";
 
 	for (var i = 0; i < navli.length; i++) {
 		navli[i].index=i;

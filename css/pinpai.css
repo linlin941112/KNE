@@ -193,5 +193,103 @@ header nav ul .xiahua{
 .list-pin main ul{
 	width: 100%;
 	height: auto;
-	
+}
+.list-pin main ul li{
+    width: 100%;
+    height: 176px;
+    margin-bottom: 40px;
+    background: pink;
+}
+.list-pin main ul li .left{
+    width: 162px;
+    height: 120px;
+    margin: 28px 0;
+    background: #999;
+    float: left;
+}
+.list-pin main ul li .left .shuzi{
+    width: 142px;
+    height: 100%;
+    border-right: 4px dotted #fff;
+    font-size: 76px;
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+.list-pin main ul li .left .shuzi .zhe{
+	width: 100px;
+    height: 60px;
+    position: absolute;
+    bottom: 2px;
+    right: -10px;
+    transform: rotate(52deg);
+    transform-origin: center bottom;
+    border-left: 1px solid #888;
+    background: #999999;
+}
+.list-pin main ul li .left .shuzi .di{
+    width: 62px;
+    height: 10px;
+    margin: -7px auto;
+    position: relative;
+    z-index: 100000;
+}
+.list-pin main ul li .left .shuzi .di p{
+    width: 48px;
+    background: #fff;
+    height: 100%;
+    float: left;
+}
+.list-pin main ul li .left .shuzi .di span{
+    width: 7px;
+    background: #fff;
+    height: 100%;
+    float: right;
+}
+.list-pin main ul li .center{
+    width: 282px;
+    height: 100%;
+    box-shadow: 0 0 5px 2px #999;
+    float: left;
+}
+.list-pin main ul li .right{
+    width: 562px;
+    height: 120px;
+    margin: 28px 0;
+    border: 1px solid #E8E8E8;
+    border-left: 0;
+    float: left;
+    padding: 20px 40px;
+    position: relative;
+    box-sizing: border-box;
+}
+.list-pin main ul li .right h1{
+    width: 100%;
+    height: 32px;
+    line-height: 32px;
+    font-size: 20px;
+}
+.list-pin main ul li .right h1 a{
+    display: block;
+    width: 100%;
+    height: 32px;
+    text-align: left;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #333;
+    font-weight: bold;
+}
+.list-pin main ul li .right p{
+	width: 100%;
+    font-size: 18px;
+    color: #666;
+    font-weight: 500;
+    line-height: 32px;
+    overflow: hidden;
+    white-space: nowrap;
+    height: 32px;
+    display: inline-block;
+    text-overflow: ellipsis;
 }
