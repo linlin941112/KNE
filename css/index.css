@@ -1038,3 +1038,6 @@ footer main .kuai img{
 	height: 210px;
 	margin-top: 50px;
 }
+footer main .kuai:last-of-type{
+	border-right: 0;
+}
