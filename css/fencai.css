@@ -1,0 +1,246 @@
+header{
+	width: 100%;
+	height: 98px;
+}
+header nav{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+}
+header nav .nav-left{
+	width: 250px;
+	height: 100%;
+	float: left;
+}
+header nav .nav-left a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+header nav ul{
+    height: 100%; 
+    float: right;
+    padding: 0 15px;
+    position: relative;
+}
+header nav ul li{
+ 	height: 100%;
+    float: left; 
+    line-height: 98px;
+    text-align: center;
+    padding: 0 15px 0 15px;
+}
+header nav ul li a{
+	font-size: 18px;
+	color: #333;
+}
+header nav ul li:hover a{
+	color: #FF3795;
+}
+header nav ul .xiahua{
+	width: 100px;
+	height: 7px;
+	background: #FF3795;
+	position: absolute;
+	bottom: 0;
+	left: 250px;
+	transition: all .2s linear;
+}
+.list-tuan{
+	width: 1200px;
+    margin: 0 auto 90px;
+    overflow: hidden;
+    background: #fff;
+}
+.list-tuan main{
+	width: 1006px;
+    height: auto;
+    margin: 0 auto;
+}
+.list-tuan main nav{
+    margin: 25px 0 75px 0;
+}
+.list-tuan main nav .shou{
+    font-size: 12px;
+    border-bottom: 2px solid #666666;
+}
+.list-tuan main nav a{
+    font-size: 14px;
+    color: #333;
+    padding: 3px 0;
+}
+.list-tuan main nav .dayu{
+	padding: 0 5px;
+}
+.list-tuan main nav .tuan{
+	color: #ff3795;
+	font-weight: bold;
+	font-size: 14px;
+}
+.list-tuan main .biaoti{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0 100px 0 70px;
+	margin-bottom: 40px;
+}
+.list-tuan main .biaoti h2{
+	font-size: 20px;
+	font-weight: normal;
+	color: #e70f77;
+	margin-bottom: 7px;
+}
+.list-tuan main .biaoti .xian{
+	height: 2px;
+	background: #e93a72;
+	margin-left: 230px;
+	margin-bottom: 3px;
+}
+.list-tuan main .biaoti h3{
+	font-size: 18px;
+	font-weight: normal;
+	color: #e70f77;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+.list-tuan main .biaoti p{
+	margin-left: 10px;
+	font-size: 12px;
+	color: #62c3bf;
+	line-height: 12px;
+}
+.list-tuan main .biaoti p span{
+	float: left;
+	width: 8px;
+	height: 8px;
+	border-radius: 3px;
+	background: #e5006e;
+	margin: 2px 1px;
+}
+.list-tuan main .neirong{
+	width: 100%;
+	padding: 0 140px;
+	box-sizing: border-box;
+}
+.list-tuan main .neirong h4{
+	color: #e70f77;
+	font-size: 20px;
+	text-align: center;
+	padding: 15px 0;
+	font-weight: normal;
+}
+.list-tuan main .neirong p{
+	padding: 10px 0;
+	font-size: 14px;
+	color: #555;
+	line-height: 1.5rem;
+}
+.list-tuan main .neirong .tu{
+	width: 100%;
+	height: 512px;
+	padding: 30px 0;
+}
+.list-tuan main .neirong .tu .left{
+	float: left;
+	width: 415px;
+}
+.list-tuan main .neirong .tu .left .top{
+	width: 100%;
+	height: 248px;
+	margin-bottom: 16px;
+}
+.list-tuan main .neirong .tu .left .bottom{
+	width: 100%;
+	height: 248px;
+}
+.list-tuan main .neirong .tu .right{
+	float: right;
+	width: 293px;
+}
+.list-tuan main .neirong .tu .right .top{
+	width: 100%;
+	height: 340px;
+	margin-bottom: 7px;
+}
+.list-tuan main .neirong .tu .right .bottom{
+	width: 100%;
+	height: 165px;
+}
+footer{
+	width: 100%;
+	height: 370px;
+    background: #FF3795;
+}
+footer main{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+}
+footer main .kuai{
+    height: 270px;
+    width: 33.3333%;
+    margin-top: 70px;
+    float: left;
+    box-sizing: border-box;
+    color: #ffffff;
+    border-right: 1px solid #8B144D;
+}
+footer main .kuai .top{
+    height: 60px;
+    width: 160px;
+    padding: 10px 20px 0;
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+footer main .kuai .top h4{
+	font-size: 18px;
+	font-weight: normal;
+	margin-bottom: 8px;
+}
+footer main .kuai .top h5{
+	font-size: 16px;
+	font-weight: normal;
+}
+footer main .kuai ul{
+    width: 100%;
+    height: auto;
+    color: #F9D7E4;
+    font-size: 12px;
+    margin-left: 20px;
+}
+footer main .kuai ul li{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	margin-bottom: 5px;
+}
+footer main .kuai ul li i{
+    width: 25px;
+	height: 25px;
+    float: left;
+    margin-left: 20px;
+    margin-right: 10px;
+    background: yellow;
+}
+footer main .kuai ul li p:first-of-type{
+	float: left;
+}
+footer main .kuai ul li p:nth-of-type(2){
+	float: left;
+	margin-left: 52px;
+}
+footer main .kuai .lian{
+	margin-left: 40px;
+}
+footer main .kuai .lian a{
+    font-size: 18px;
+    color: #fff;
+}
+footer main .kuai img{
+	float: right;
+	width: 210px;
+	height: 210px;
+	margin-top: 50px;
+}
+footer main .kuai:last-of-type{
+	border-right: 0;
+}
